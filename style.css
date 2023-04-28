@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(45deg, #3debb0, #8956f3);
+}
+
+
+.main-calculator {
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.calculator {
+    overflow: hidden;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    background-color: #7050b4;
+    border-radius: 8px;
+    box-shadow: 10px 14px 11px -3px rgba(0, 0, 0, 0.5);
+
+}
+
+
+.calculator>h2 {
+    color: #77ffc0;
+    padding: 30px;
+    font-family: 'Secular-one', sans-serif;
+    font-weight: bold;
+    font-size: 20pt;
+}
+
+.input-field {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+
+}
+
+.input-field label {
+    color: #fff;
+    margin: 10px;
+    display: flex;
+    text-align: start;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Secular-one', sans-serif;
+    font-weight: bold;
+}
+
+input {
+    color: #fff;
+
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    margin: 5px;
+    padding: 15px;
+    background-color: #514869;
+    box-shadow: 10px 14px 11px -3px rgba(0, 0, 0, 0.289);
+    box-sizing: border-box;
+    text-align: center;
+
+    font-family: 'Secular-one', sans-serif;
+    font-weight: bold;
+    font-size: medium;
+
+}
+
+
+#resultado {
+    padding: 6px;
+
+    color: #fff;
+    background-color: #514869;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 10px 14px 11px -3px rgba(0, 0, 0, 0.289);
+
+    font-family: 'Secular-one', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 11pt;
+
+    resize: none;
+}
+
+.btn-calcular {
+    width: 50%;
+    padding: 16px 0px;
+    margin: 25px 0px;
+    color: #261346;
+    background-color: #00ff88;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    font-family: 'Secular-one', sans-serif;
+    font-weight: 800;
+    letter-spacing: 4px;
+    cursor: pointer;
+    box-shadow: 10px 14px 11px -3px rgba(0, 0, 0, 0.289);
+}
+
+.btn-calcular:hover {
+    background-color: #2eb875;
+    color: #fff;
+}
+
+::placeholder {
+    font-family: 'Secular-one', sans-serif;
+    font-weight: bold;
+}
